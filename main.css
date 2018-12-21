@@ -1,0 +1,215 @@
+body {
+    font-family: "Open Sans";
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+}
+
+td > div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pro-pic {
+    position: relative;
+}
+
+.pro-pic.top-pic {
+    position: absolute;
+    top: 27px;
+    left: 54px;
+}
+
+.pro-pic img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+#phone {
+    background-color: #fafafa;
+    position: relative;
+    /* position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%); */
+    width: 300px;
+    height: 600px;
+
+    overflow: hidden;
+}
+
+#phone > img {
+    max-width: 100%;
+}
+
+#top {
+    position: absolute;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0px;
+
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+}
+
+#name {
+    position: absolute;
+    top: 29px;
+    left: 98px;
+    color: #efffff;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#text {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+}
+
+#text > div {
+    display: inline-block;
+    width: 100%;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#text > div > img {
+    max-width: 210px;
+}
+
+#text > div > * {
+    padding: 8px 12px;
+    border-radius: 18px;
+    float: right;
+    background-color: #0084ff;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#text > div > img {
+    padding: 0px;
+    background-color: transparent !important;
+}
+
+#text > div.right > * {
+    float: right;
+    margin-left: 70px;
+
+}
+
+#text > div.left > * {
+    float: left;
+    background-color: #eaeaea;
+    color: black;
+    margin-right: 70px;
+}
+
+#text > div > * {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#text > div.left > * {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#text > div.right > * {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#text > div.left > *:first-child {
+    border-top-left-radius: 18px;
+}
+
+#text > div.left > *:last-child {
+    border-bottom-left-radius: 18px;
+}
+
+#text > div.right > *:first-child {
+    border-top-right-radius: 18px;
+}
+
+#text > div.right > *:last-child {
+    border-bottom-right-radius: 18px;
+}
+
+#text {
+    height: 456px;
+    overflow-y: scroll;
+}
+
+#text::-webkit-scrollbar { 
+    display: none; 
+}
+
+#controls {
+    width: 300px;
+    height: 550px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: block;
+
+    text-align: center;
+}
+
+#controls h3 {
+    display: block;
+    padding-top: 10px;
+}
+
+#controls input {
+    width: 90%;
+    padding: 5%;
+    border-radius: 3px;
+    display: block;
+    margin: 10px auto;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "Open Sans", Arial;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(235, 67, 117);
+    width: 50%;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+
+.btn:hover {
+    background-color: rgb(212, 56, 103);
+}
+
+.image-upload {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px dashed black;
+    overflow: hidden;
+}
